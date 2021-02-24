@@ -84,8 +84,8 @@ def generate_words_with_sufixes_and_prefixes(input_word):
 
     return print(good_words)
 
-#generate_words_from_stem(input("Tastați cuvântul dorit: "))
-#generate_words_with_prefixes('calcul')
-#generate_words_with_sufixes('calcul')
-generate_words_with_sufixes_and_prefixes('teroare')
-#generate_words_from_stem('calcul') #nu merge foarte bine
+generate_words_from_stem(input("Tastați cuvântul dorit: "))
+#generate_words_with_prefixes(input("Tastați cuvântul dorit: "))
+#generate_words_with_sufixes(input("Tastați cuvântul dorit: "))
+#generate_words_with_sufixes_and_prefixes(input("Tastați cuvântul dorit: "))
+
