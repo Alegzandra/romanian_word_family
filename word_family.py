@@ -47,8 +47,9 @@ def generate_words_with_sufixes(input_word):
             sufixes_list.append(line[1].replace('\n', ''))
     new_word_list = []
     good_words = []
+    stemmer = SnowballStemmer("romanian")
     for sufix in sufixes_list:
-        new_word_list.append(input_word+sufix)
+        new_word_list.append(stemmer.stem(input_word)+sufix)
     for word in new_word_list:
         if word in word_list:
             good_words.append(word)
