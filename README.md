@@ -1,5 +1,3 @@
-# romanian_word_family
-A tool to generate words from a romanian stem.
+# romanian word family
+Easy tool to generate family words from a word in Romanian, by adding suffixes and prefixes.
 
-TO DO
-calculate word similarity with fasttext embeddings
