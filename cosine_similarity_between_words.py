@@ -10,11 +10,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 e = Embedder('C:/Users/Ale/PycharmProjects/lexical_family/env/169/')
-sent1 = ['terorist']
-sent2 = ['teroare']
+sent1 = ['ce faci']
+sent2 = ['ce faci măi']
 #print("ELMO: ", e.sents2elmo(sent), len(e.sents2elmo(sent)[0]))
-
-
 
 print(cosine_similarity(e.sents2elmo(sent1), e.sents2elmo(sent2)))
 
@@ -48,7 +46,7 @@ def word_comparison(input_word):
             similar_words.append(word)
     return print(similar_words)
 
-#word_comparison('teroare')
+word_comparison('bucurie')
 
 
 
